@@ -16,6 +16,23 @@ The plugin sets a Permissions-Policy response header that blocks JavaScript from
 - **Reduced Server Load:** Cached pages don't require new server requests
 - **Better User Experience:** Faster perceived performance for returning visitors
 
+### Installation Using Composer
+
+To install the plugin via Composer, follow these steps:
+
+1. **Add the Repository:**
+   - Open your project's `composer.json` file.
+   - Add the following under the `repositories` section:
+
+     ```json
+     "repositories": [
+         {
+             "type": "vcs",
+             "url": "https://github.com/xwp/performance-bfcache"
+         }
+     ]
+     ```
+
 ## Usage
 
 The plugin works automatically once activated. Example of the header output:
